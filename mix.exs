@@ -1,13 +1,18 @@
 defmodule FlameDashboard.MixProject do
   use Mix.Project
 
+  @version "0.1.0"
+  @source_url "https://github.com/samrat/flame_dashboard"
+
   def project do
     [
       app: :flame_dashboard,
-      version: "0.1.0",
+      description: "FLAME statistics visualization for Phoenix LiveDashboard",
+      version: @version,
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      package: package()
     ]
   end
 
@@ -21,7 +26,15 @@ defmodule FlameDashboard.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix_live_dashboard, "~> 0.8.4"}
+      {:phoenix_live_dashboard, "~> 0.8.4"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
+    ]
+  end
+
+  defp package() do
+    [
+      licenses: ["MIT"],
+      links: %{"GitHub" => @source_url}
     ]
   end
 end
