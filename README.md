@@ -2,7 +2,7 @@
 
 [FLAME](https://github.com/phoenixframework/flame) statistics visualization for [Phoenix LiveDashboard](https://github.com/phoenixframework/phoenix_live_dashboard).
 
-<video src='https://github.com/user-attachments/assets/ac1bb6e8-0cd3-470e-b456-a74a1060e21b' alt='FLAME LiveDashboard' />
+<video src='https://github.com/user-attachments/assets/ac1bb6e8-0cd3-470e-b456-a74a1060e21b' alt='FLAME LiveDashboard'></video>
 
 ## Installation
 
