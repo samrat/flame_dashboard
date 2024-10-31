@@ -1,5 +1,8 @@
 # FLAMEDashboard
 
+[![Hex.pm](https://img.shields.io/hexpm/v/flame_dashboard.svg)](https://hex.pm/packages/flame_dashboard)
+[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/flame_dashboard)
+
 [FLAME](https://github.com/phoenixframework/flame) statistics visualization for [Phoenix LiveDashboard](https://github.com/phoenixframework/phoenix_live_dashboard).
 
 <video src='https://github.com/user-attachments/assets/ac1bb6e8-0cd3-470e-b456-a74a1060e21b' alt='FLAME LiveDashboard'></video>
