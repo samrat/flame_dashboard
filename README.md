@@ -28,3 +28,7 @@ live_dashboard "/dashboard",
 
 That's it!
 `FLAMEDashboard` will track your FLAME runners and visualize their statistics.
+
+## License
+
+MIT License. © [Octocut](https://octocut.com), Samrat Man Singh

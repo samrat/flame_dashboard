@@ -12,7 +12,8 @@ defmodule FlameDashboard.MixProject do
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      package: package()
+      package: package(),
+      docs: docs()
     ]
   end
 
@@ -35,6 +36,15 @@ defmodule FlameDashboard.MixProject do
     [
       licenses: ["MIT"],
       links: %{"GitHub" => @source_url}
+    ]
+  end
+
+  defp docs() do
+    [
+      main: "readme",
+      extras: ["README.md"],
+      source_ref: "v#{@version}",
+      formatters: ["html"]
     ]
   end
 end
